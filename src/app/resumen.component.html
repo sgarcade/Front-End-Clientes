@@ -1,0 +1,18 @@
+<div class="container mt-5">
+    <h2 class="text-center">Resumen de los Datos</h2>
+  
+    <div *ngIf="persona; else noDatos">
+      <p><strong>Primer nombre:</strong> {{ persona.primerNombre }}</p>
+      <p><strong>Segundo nombre:</strong> {{ persona.segundoNombre }}</p>
+      <p><strong>Primer apellido:</strong> {{ persona.primerApellido }}</p>
+      <p><strong>Segundo apellido:</strong> {{ persona.segundoApellido }}</p>
+      <p><strong>Teléfono:</strong> {{ persona.telefono }}</p>
+      <p><strong>Dirección:</strong> {{ persona.direccion }}</p>
+      <p><strong>Ciudad de residencia:</strong> {{ persona.ciudad }}</p>
+    </div>
+  
+    <ng-template #noDatos>
+      <p>No se encontraron datos para esta cédula.</p>
+    </ng-template>
+  </div>
+  

@@ -1,0 +1,23 @@
+[
+    {
+      "cedula": "123456789",
+      "primerNombre": "Juan",
+      "segundoNombre": "Carlos",
+      "primerApellido": "Pérez",
+      "segundoApellido": "Gómez",
+      "telefono": "123-456-789",
+      "direccion": "Calle Falsa 123",
+      "ciudad": "Bogotá"
+    },
+    {
+      "cedula": "987654321",
+      "primerNombre": "Ana",
+      "segundoNombre": "María",
+      "primerApellido": "López",
+      "segundoApellido": "Martínez",
+      "telefono": "987-654-321",
+      "direccion": "Av. Siempre Viva 456",
+      "ciudad": "Medellín"
+    }
+  ]
+  
